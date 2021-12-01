@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Likes Ratio",
+    "version": "0.0.1",
+    "description": "Extension for estimate dislikes based on the likes to views ratio.",
+    "icons":{
+        "512": "images/like.png"
+    },
+    "browser_action":{
+        "default_icon":"images/like.png",
+        "default_icon_attribution":"<div>Icons made by <a href=\"https://www.flaticon.com/authors/anggara\" title=\"Anggara\">Anggara</a> from <a href=\"https://www.flaticon.com/\" title=\"Flaticon\">www.flaticon.com</a></div>",
+        "default_title": "YouTube Likes Ratio",
+        "default_popup": "content/popup.html"
+    }
+}
